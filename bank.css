@@ -11,6 +11,10 @@ body {
     text-align: center;
     
   }
+  .logo{
+    display: flex;
+
+  }
   
   header {
     background-color: rgb(115, 199, 248);
@@ -24,11 +28,14 @@ body {
   
   .image{
     height: 10vh;
-    top: 0;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
   } 
   
   nav ul {
-
     list-style: none;
     display: flex;
 
@@ -68,6 +75,7 @@ body {
     background: transparent;
     border-color: #000000;
     border-radius: 5%;
+    margin: auto;
 
   }
 
@@ -153,10 +161,33 @@ body {
 .container2 .card2 img{
   width: 100%;
 } 
-  footer {
+.emp{
+  height: 50px;
+  width: 50px;
+}
+table{
+  width: 80%;
+}
+footer {
     background-color: rgb(115, 199, 248);
     color: #141414;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
+    
   }
-  
+  footer  li{ 
+    list-style: none; 
+} 
+footer a{
+  color: #000000;
+  text-decoration: none;
+}
+  footer li::before{ 
+    content: "\00BB"; 
+} 
+.foot{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+}
