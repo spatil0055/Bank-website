@@ -1,6 +1,5 @@
 *{
     box-sizing: border-box;
-    margin: 0;
 }
 main{
     width:100%;
@@ -51,7 +50,7 @@ h1::before{
     border-radius: 5px;
     box-shadow: 3px 3px 5px lightblue;
 }
-h3{
+.top-content h3{
     height: 100%;
     line-height: 60px;
     padding: 0 50px;
