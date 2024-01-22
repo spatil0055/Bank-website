@@ -1,0 +1,169 @@
+*{
+  box-sizing: border-box;
+
+}
+body {
+    background-color: #e6f8f7;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-align: center;
+    
+  }
+
+
+  
+
+  main {
+    padding: 20px;
+  }
+  section{
+    margin-bottom: 5%;
+  }
+
+  #services{
+    color: #3c4d6b;
+    margin:  0px 0px 10px;
+  }
+  #home img{
+    height: 10%px;
+    width: 100%;
+
+  }
+  section {
+    margin-bottom: 40px;
+  }
+
+  .slider-frame{
+    overflow: hidden;
+    height: 800px;
+    width: 1200px;
+    /* margin-left: 360px; */
+    margin: auto;
+}
+
+
+
+@keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left:0px;}
+    10% {left:0px;}
+    20% {left:1200px;}
+    30% {left:1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70% {left: 1200px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left:0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    animation-name: slide_animation;
+    -webkit-animation-duration: 33s;
+    animation-duration: 33s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+  
+
+  .container{
+    position: relative;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 15px; */
+    margin: auto
+    
+  }
+  .container .card{
+      width: 20%;
+      text-align: center;
+      background-color: #f8f8f8;
+      margin-left: 5%;
+      height: 30%;   
+  }
+
+  .container .card img{
+    width: 100%;
+  }
+
+ .card button{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding:10px;
+  }
+  .card button:hover{
+    background-color: black;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .help{
+    background-image: url("images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: #fcfcfc;
+
+  }
+   
+  .container2{ 
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+  }
+  .container2 .card2{
+    width: 20%;
+    margin-left: 15%;
+    height: 30%;   
+}
+.container2 .card2 img{
+  width: 100%;
+} 
+.emp{
+  height: 50px;
+  width: 50px;
+}
+table{
+  width: 80%;
+}

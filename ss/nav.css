@@ -1,0 +1,132 @@
+body {
+    background-color: #e6f8f7;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    text-align: center;
+    
+  }
+
+  nav {
+    background-color: rgb(115, 199, 248);
+    color: #9a9595;
+    padding: 10px;
+    display: flex; /* Align items horizontally */
+    justify-content: space-around; /* Add spacing between items */
+  }
+
+  nav a {
+    color: #232121;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  nav li:hover ul {
+    display: block;
+  
+  }
+
+  nav ul ul {
+    display: none;
+    position: absolute;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  nav ul ul li {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+  }
+
+  a:hover {
+  
+    border: 1px solid;
+  }
+
+  .top{
+    height: 120px;
+  }
+  .logo{
+    display: flex;
+    
+  }
+  
+  header {
+    background-color: rgb(115, 199, 248);
+    /* color: #fff; */
+    padding-left: 10px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .image{
+    height: 10vh;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    
+  } 
+
+
+  .btnlogin{
+    width: 130px;
+    height: 30px;
+    color: #141414;
+    background: transparent;
+    border-color: #000000;
+    border-radius: 5%;
+    margin: auto;
+
+  }
+
+  .btnlogin:hover{
+    background: #fff;
+    color: #162938;
+  }
+
+  footer {
+    background-color: rgb(115, 199, 248);
+    color: #141414;
+    /* text-align: center; */
+    padding: 10px;
+    bottom: 0;
+    
+  }
+  footer  li{ 
+    list-style: none; 
+} 
+footer a{
+  color: #000000;
+  text-decoration: none;
+}
+  footer li::before{ 
+    content: "\00BB"; 
+} 
+.foot{
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-between;
+}

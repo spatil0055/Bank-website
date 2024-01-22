@@ -1,0 +1,21 @@
+.i img{
+    width: 100%;
+    height: 30%;
+    
+}
+.text{
+    background-color: aliceblue;
+    
+}
+
+.text2{
+    width: 80%;
+    text-align: left;
+}
+
+.text2 p{
+    border-radius: 5px;
+    margin: 
+    5px 5px 5px;
+    text-align: left;
+}
